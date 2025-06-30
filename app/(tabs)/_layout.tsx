@@ -47,13 +47,14 @@ export default function _layout() {
                 title="Saved"
                 />
             ) }} />
-            <Tabs.Screen name="profile" options={{ title: "Profile", headerShown: false,tabBarIcon: ({ focused }) => (
+            <Tabs.Screen name="OM" options={{ title: "OM", headerShown: false,tabBarIcon: ({ focused }) => (
                 <TabIcon 
                 icon={icons.person}
                 focused={focused}
-                title="Profile"
+                title="OM"
                 />
             ) }} />
+            
         </Tabs>
   )
 }
